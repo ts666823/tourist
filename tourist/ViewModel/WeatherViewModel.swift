@@ -26,6 +26,9 @@ class WeatherViewModel:ObservableObject{
 extension WeatherViewModel{
     
     
+    
+    
+    
     func httpRequest(requestUrl:String)
     {
         guard let url = URL(string: requestUrl) else {

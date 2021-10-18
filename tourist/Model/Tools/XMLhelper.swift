@@ -39,6 +39,8 @@ class XMLhelper: NSObject,XMLParserDelegate{
     /// - Parameter xmlData: 需要解析的XML文件
     func XMLTranslate(xmlData:Data) ->WeatherResource
     {
+        
+        
         let parser = XMLParser(data: xmlData)
         //设置delegate
         parser.delegate = self
@@ -48,9 +50,10 @@ class XMLhelper: NSObject,XMLParserDelegate{
         transferTodayWeatherData(data: weatherData[0])
         weatherData.remove(at: 0)
         var weatherResource = WeatherResource(guides: guides, weatherData: weatherData, today: todayWeatherData)
-
+        
         return weatherResource
     }
+    
     
     // 遇到一个开始标签时调用
     func parser(_ parser: XMLParser, didStartElement elementName: String,

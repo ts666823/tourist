@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.WebServeSOA.net" xmlns="http://www.WebServeSOA.net"
+           elementFormDefault="qualified">
+
+    <xs:element name="resp">
+        <xs:complexType >
+            <xs:sequence>
+                <xs:element name="city" type="xs:string" />
+                <xs:element name="updatetime" type="xs:string" />
+                <xs:element name="wendu" type="xs:string" />
+                <xs:element name="fengli" type="xs:string" />
+                <xs:element name="shidu" type="xs:string" />
+                <xs:element name="fengxiang" type="xs:string" />
+                <xs:element name="sunrise_1" type="xs:string" />
+                <xs:element name="sunset_1" type="xs:string" />
+                <xs:element name="sunrise_2" type="xs:string" />
+                <xs:element name="sunset_2" type="xs:string" />
+                <xs:element name="yesterday" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="date_1" type="xs:string" />
+                            <xs:element name="high_1" type="xs:string" />
+                            <xs:element name="low_1" type="xs:string" />
+                            <xs:element name="day_1">
+                                <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="type_1" type="xs:string" />
+                                    <xs:element name="fx_1" type="xs:string" />
+                                    <xs:element name="fl_1" type="xs:string" />
+                                </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="night_1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type_1" type="xs:string" />
+                                        <xs:element name="fx_1" type="xs:string" />
+                                        <xs:element name="fl_1" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="forecast" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="weather" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="date" type="xs:string" />
+                                        <xs:element name="high" type="xs:string" />
+                                        <xs:element name="low" type="xs:string" />
+                                        <xs:element name="day" >
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" type="xs:string" />
+                                                    <xs:element name="fengxiang" type="xs:string" />
+                                                    <xs:element name="fengli" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="night" >
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" type="xs:string" />
+                                                    <xs:element name="fengxiang" type="xs:string" />
+                                                    <xs:element name="fengli" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="zhishus">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="zhishu" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="value" type="xs:string" />
+                                        <xs:element name="detail" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
