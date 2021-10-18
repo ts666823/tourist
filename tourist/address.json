@@ -1,0 +1,247 @@
+[{
+        "id": "101020100",
+        "name": "上海",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020200",
+        "name": "闵行",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020300",
+        "name": "宝山",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020400",
+        "name": "川沙",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020500",
+        "name": "嘉定",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020600",
+        "name": "南汇",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020700",
+        "name": "金山",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020800",
+        "name": "青浦",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101020900",
+        "name": "松江",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101021000",
+        "name": "奉贤",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101021100",
+        "name": "崇明",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101021200",
+        "name": "徐家汇",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101210101",
+        "name": "杭州",
+        "parentId": "101210101",
+        "parentName": "江苏"
+    },
+    {
+        "id": "101200101",
+        "name": "武汉",
+        "parentId": "101200101",
+        "parentName": "湖北"
+    },
+    {
+        "id": "101010100",
+        "name": "北京",
+        "parentId": "101010100",
+        "parentName": "北京"
+    },
+    {
+        "id": "101190101",
+        "name": "南京",
+        "parentId": "101190101",
+        "parentName": "江苏"
+    },
+    {
+        "id": "101021300",
+        "name": "浦东",
+        "parentId": "101020100",
+        "parentName": "上海"
+    },
+    {
+        "id": "101310101",
+        "name": "海口",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310102",
+        "name": "琼山",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310201",
+        "name": "三亚",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310202",
+        "name": "东方",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310203",
+        "name": "临高",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310204",
+        "name": "澄迈",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310205",
+        "name": "儋州",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310206",
+        "name": "昌江",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310207",
+        "name": "白沙",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310208",
+        "name": "琼中",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310209",
+        "name": "定安",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310210",
+        "name": "屯昌",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310211",
+        "name": "琼海",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310212",
+        "name": "文昌",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310213",
+        "name": "清澜",
+        "parentId": "101310212",
+        "parentName": "文昌"
+    },
+    {
+        "id": "101310214",
+        "name": "保亭",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310215",
+        "name": "万宁",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310216",
+        "name": "陵水",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310217",
+        "name": "西沙",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310218",
+        "name": "珊瑚岛",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310219",
+        "name": "永暑礁",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310220",
+        "name": "南沙岛",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310221",
+        "name": "乐东",
+        "parentId": "101310100",
+        "parentName": "海南"
+    },
+    {
+        "id": "101310222",
+        "name": "五指山",
+        "parentId": "101310100",
+        "parentName": "海南"
+    }
+]
