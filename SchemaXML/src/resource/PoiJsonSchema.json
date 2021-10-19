@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "string"
+    },
+    "infocode": {
+      "type": "string"
+    },
+    "pois": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "business": {
+            "type": "object",
+            "properties": {
+              "opentime_today": {
+                "type": "string"
+              },
+              "keytag": {
+                "type": "string"
+              },
+              "rating": {
+                "type": "string"
+              },
+              "business_area": {
+                "type": "string"
+              },
+              "tel": {
+                "type": "string"
+              },
+              "rectag": {
+                "type": "string"
+              },
+              "opentime_week": {
+                "type": "string"
+              }
+            }
+          },
+          "pcode": {
+            "type": "string"
+          },
+          "adcode": {
+            "type": "string"
+          },
+          "pname": {
+            "type": "string"
+          },
+          "cityname": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "photos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "typecode": {
+            "type": "string"
+          },
+          "adname": {
+            "type": "string"
+          },
+          "citycode": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

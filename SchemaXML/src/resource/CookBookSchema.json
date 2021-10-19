@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "msg": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "datas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "yl": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ylUnit": {
+                  "type": "string"
+                },
+                "ylName": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "des": {
+            "type": "string"
+          },
+          "smallImg": {
+            "type": "string"
+          },
+          "type_v3": {
+            "type": "string"
+          },
+          "cpName": {
+            "type": "string"
+          },
+          "largeImg": {
+            "type": "string"
+          },
+          "type_v1": {
+            "type": "string"
+          },
+          "type_v2": {
+            "type": "string"
+          },
+          "tip": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "imgUrl": {
+                  "type": "string"
+                },
+                "orderNum": {
+                  "type": "integer"
+                },
+                "content": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
