@@ -39,8 +39,6 @@ class XMLhelper: NSObject,XMLParserDelegate{
     /// - Parameter xmlData: 需要解析的XML文件
     func XMLTranslate(xmlData:Data) ->WeatherResource
     {
-        
-        
         let parser = XMLParser(data: xmlData)
         //设置delegate
         parser.delegate = self
@@ -50,12 +48,19 @@ class XMLhelper: NSObject,XMLParserDelegate{
         transferTodayWeatherData(data: weatherData[0])
         weatherData.remove(at: 0)
         var weatherResource = WeatherResource(guides: guides, weatherData: weatherData, today: todayWeatherData)
-        
         return weatherResource
     }
     
     
     // 遇到一个开始标签时调用
+    
+    /// 遇到标签时调用的解析函数
+    /// - Parameters:
+    ///   - parser: XML解析器
+    ///   - elementName: elementName 遇到的elementname
+    ///   - namespaceURI: namespaceURI 命名空间URI
+    ///   - qName: qName qualifiedName
+    ///   - attributeDict: attributeDict 元素字典
     func parser(_ parser: XMLParser, didStartElement elementName: String,
                     namespaceURI: String?, qualifiedName qName: String?,
                     attributes attributeDict: [String : String] = [:]) {
@@ -78,7 +83,11 @@ class XMLhelper: NSObject,XMLParserDelegate{
         
     }
      
-    // 遇到字符串时调用
+    //
+    /// 遇到字符串时调用
+    /// - Parameters:
+    ///   - parser: XML解析器
+    ///   - string: 遇到的字符串数据
     func parser(_ parser: XMLParser, foundCharacters string: String) {
 
         let data = string.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -119,7 +128,13 @@ class XMLhelper: NSObject,XMLParserDelegate{
         }
     }
      
-    // 遇到结束标签时调用
+    //
+    /// 遇到结束标签时调用
+    /// - Parameters:
+    ///   - parser: XML解析器
+    ///   - elementName:
+    ///   - namespaceURI:
+    ///   - qName:
     func parser(_ parser: XMLParser, didEndElement elementName: String,
                 namespaceURI: String?, qualifiedName qName: String?) {
        

@@ -43,6 +43,7 @@ struct ScenicView: View {
                             showDetails.toggle()
                         }
                 }
+                .padding(.top)
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing:20) {
                         ForEach(ButtonViewData.SymbolData){data in

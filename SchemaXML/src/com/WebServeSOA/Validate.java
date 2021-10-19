@@ -26,7 +26,7 @@ public class Validate {
         SchemaFactory schemaFactory = SchemaFactory
                 .newInstance("http://www.w3.org/2001/XMLSchema");
 
-        Schema schema = schemaFactory.newSchema(new File("/Users/tangshuo/Downloads/SchemaXML/src/resource/note.xsd"));
+        Schema schema = schemaFactory.newSchema(new File("src/resource/note.xsd"));
         Validator validator = schema.newValidator();
         validator.setErrorHandler(new ErrorHandler() {
 
@@ -45,7 +45,7 @@ public class Validate {
 
             }
         });
-        validator.validate(new StreamSource(new File("/Users/tangshuo/Downloads/SchemaXML/src/resource/note.xml")));
+        validator.validate(new StreamSource(new File("src/resource/note.xml")));
     }
 
 }

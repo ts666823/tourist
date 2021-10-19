@@ -26,16 +26,12 @@ class WeatherViewModel:ObservableObject{
 extension WeatherViewModel{
     
     
-    
-    
-    
     func httpRequest(requestUrl:String)
     {
         guard let url = URL(string: requestUrl) else {
             print("URL error")
             return
         }
-        print("url\(url)")
         URLSession.shared.dataTask(with: url) { [self] (data, rsp, error) in
             //解决错误情况
             print("Request Start\(requestUrl)")
